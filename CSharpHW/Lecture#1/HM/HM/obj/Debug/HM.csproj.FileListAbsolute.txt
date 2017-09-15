@@ -1,0 +1,6 @@
+E:\C#projects\HM\HM\bin\Debug\HM.exe
+E:\C#projects\HM\HM\bin\Debug\HM.pdb
+E:\C#projects\HM\HM\obj\Debug\HM.csprojResolveAssemblyReference.cache
+E:\C#projects\HM\HM\obj\Debug\HM.csproj.CoreCompileInputs.cache
+E:\C#projects\HM\HM\obj\Debug\HM.exe
+E:\C#projects\HM\HM\obj\Debug\HM.pdb
