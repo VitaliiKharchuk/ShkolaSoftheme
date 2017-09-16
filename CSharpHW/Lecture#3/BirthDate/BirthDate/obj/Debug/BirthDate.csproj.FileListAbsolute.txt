@@ -1,0 +1,6 @@
+E:\C#projects\BirthDate\BirthDate\bin\Debug\BirthDate.exe
+E:\C#projects\BirthDate\BirthDate\bin\Debug\BirthDate.pdb
+E:\C#projects\BirthDate\BirthDate\obj\Debug\BirthDate.csprojResolveAssemblyReference.cache
+E:\C#projects\BirthDate\BirthDate\obj\Debug\BirthDate.csproj.CoreCompileInputs.cache
+E:\C#projects\BirthDate\BirthDate\obj\Debug\BirthDate.exe
+E:\C#projects\BirthDate\BirthDate\obj\Debug\BirthDate.pdb

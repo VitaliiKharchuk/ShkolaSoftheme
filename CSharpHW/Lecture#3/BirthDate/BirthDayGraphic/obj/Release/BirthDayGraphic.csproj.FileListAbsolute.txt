@@ -1,0 +1,14 @@
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\bin\Release\BirthDayGraphic.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\bin\Release\BirthDayGraphic.pdb
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\BirthDayGraphic.csprojResolveAssemblyReference.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\MainWindow.g.cs
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\App.g.cs
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\BirthDayGraphic_MarkupCompile.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\BirthDayGraphic_MarkupCompile.lref
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\MainWindow.baml
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\BirthDayGraphic.g.resources
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\BirthDayGraphic.Properties.Resources.resources
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\BirthDayGraphic.csproj.GenerateResource.Cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\BirthDayGraphic.csproj.CoreCompileInputs.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\BirthDayGraphic.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDayGraphic\obj\Release\BirthDayGraphic.pdb

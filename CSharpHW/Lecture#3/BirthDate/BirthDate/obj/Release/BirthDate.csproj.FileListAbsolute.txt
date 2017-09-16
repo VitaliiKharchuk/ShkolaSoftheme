@@ -1,0 +1,11 @@
+E:\C#projects\BirthDate\BirthDate\bin\Release\BirthDate.exe
+E:\C#projects\BirthDate\BirthDate\bin\Release\BirthDate.pdb
+E:\C#projects\BirthDate\BirthDate\obj\Release\BirthDate.csproj.CoreCompileInputs.cache
+E:\C#projects\BirthDate\BirthDate\obj\Release\BirthDate.exe
+E:\C#projects\BirthDate\BirthDate\obj\Release\BirthDate.pdb
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDate\bin\Release\BirthDate.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDate\bin\Release\BirthDate.pdb
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDate\obj\Release\BirthDate.csprojResolveAssemblyReference.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDate\obj\Release\BirthDate.csproj.CoreCompileInputs.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDate\obj\Release\BirthDate.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#3\BirthDate\BirthDate\obj\Release\BirthDate.pdb
