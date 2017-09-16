@@ -1,0 +1,14 @@
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\NumericDataTypesGraphic.csprojResolveAssemblyReference.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\App.g.cs
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\NumericDataTypesGraphic_MarkupCompile.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\bin\Release\NumericDataTypesGraphic.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\bin\Release\NumericDataTypesGraphic.pdb
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\MainWindow.g.cs
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\NumericDataTypesGraphic_MarkupCompile.lref
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\MainWindow.baml
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\NumericDataTypesGraphic.g.resources
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\NumericDataTypesGraphic.Properties.Resources.resources
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\NumericDataTypesGraphic.csproj.GenerateResource.Cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\NumericDataTypesGraphic.csproj.CoreCompileInputs.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\NumericDataTypesGraphic.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypesGraphic\obj\Release\NumericDataTypesGraphic.pdb

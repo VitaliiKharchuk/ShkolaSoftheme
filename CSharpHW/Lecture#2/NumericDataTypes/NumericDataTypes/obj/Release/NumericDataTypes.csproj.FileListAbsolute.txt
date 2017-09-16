@@ -1,0 +1,5 @@
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypes\bin\Release\NumericDataTypes.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypes\bin\Release\NumericDataTypes.pdb
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypes\obj\Release\NumericDataTypes.csproj.CoreCompileInputs.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypes\obj\Release\NumericDataTypes.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypes\obj\Release\NumericDataTypes.pdb

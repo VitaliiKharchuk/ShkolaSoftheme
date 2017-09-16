@@ -1,0 +1,6 @@
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\Calculator\bin\Release\Calculator.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\Calculator\bin\Release\Calculator.pdb
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\Calculator\obj\Release\Calculator.csproj.CoreCompileInputs.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\Calculator\obj\Release\Calculator.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\Calculator\obj\Release\Calculator.pdb
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\Calculator\obj\Release\Calculator.csprojResolveAssemblyReference.cache

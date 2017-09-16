@@ -1,0 +1,65 @@
+﻿<Window x:Class="NumericDataTypesGraphic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumericDataTypesGraphic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="363.636" Width="677.273">
+	<Grid>
+
+		<Grid.RowDefinitions>
+			<RowDefinition Height="4*" />
+			<RowDefinition Height="*" />
+		</Grid.RowDefinitions>
+
+
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+
+
+		<StackPanel x:Name="types"  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+			<Label  VerticalAlignment="Center" HorizontalAlignment ="Left">Signed   data  dypes</Label>
+			<RadioButton x:Name="_sbyte" VerticalAlignment="Top" Content="sbyte" FontSize="18" IsChecked="True" />
+			<RadioButton x:Name="_short" VerticalAlignment="Top" Content="short" FontSize="18" IsChecked="True" />
+			<RadioButton x:Name="_int" VerticalAlignment="Top" Content="int" FontSize="18" />
+			<RadioButton x:Name="_long" VerticalAlignment="Top" Content="long" FontSize="18" />
+			
+			<Label   VerticalAlignment="Center" HorizontalAlignment ="Left"> Unsigned   data  dypes</Label>
+			<RadioButton x:Name="_byte" VerticalAlignment="Top" Content="byte" FontSize="18" />
+			<RadioButton x:Name="_ushort" VerticalAlignment="Top" Content="ushort" FontSize="18" IsChecked="True" />
+			<RadioButton x:Name="_uint" VerticalAlignment="Top" Content="uint" FontSize="18" />
+			<RadioButton x:Name="_ulong" VerticalAlignment="Top" Content="ulong" FontSize="18" />
+
+			<Label   VerticalAlignment="Center" HorizontalAlignment ="Left">floating-point   data  dypes</Label>
+
+			<RadioButton x:Name="_float" VerticalAlignment="Top" Content="float" FontSize="18" />
+			<RadioButton x:Name="_double" VerticalAlignment="Top" Content="double" FontSize="18" />
+			<RadioButton x:Name="_decimal" VerticalAlignment="Top" Content="decimal" FontSize="18" />
+		</StackPanel>
+
+		<StackPanel Name="description"  Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top">
+
+			<Label   VerticalAlignment="Center" HorizontalAlignment ="Left">Default</Label>
+			<TextBox x:Name="_default"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" FontSize="18" />
+
+			<Label   VerticalAlignment="Center" HorizontalAlignment ="Left">Min</Label>
+			<TextBox x:Name="_min"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" FontSize="18" />
+
+			<Label   VerticalAlignment="Center" HorizontalAlignment ="Left">MAX</Label>
+			<TextBox x:Name="_max"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" FontSize="18" />
+
+
+		</StackPanel>
+		<Button x:Name="Show" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Show" FontSize="18"  Width="100"   Click="Show_Click"/>
+
+
+		<Button x:Name="Quit" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Quit" FontSize="18" Click="Quit_Click" Width="100" />
+
+
+	</Grid>
+	
+	
+</Window>

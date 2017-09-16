@@ -1,0 +1,6 @@
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypes\bin\Debug\NumericDataTypes.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypes\bin\Debug\NumericDataTypes.pdb
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypes\obj\Debug\NumericDataTypes.csprojResolveAssemblyReference.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypes\obj\Debug\NumericDataTypes.csproj.CoreCompileInputs.cache
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypes\obj\Debug\NumericDataTypes.exe
+E:\ShkolaSoftheme\CSharpHW\Lecture#2\NumericDataTypes\NumericDataTypes\obj\Debug\NumericDataTypes.pdb
