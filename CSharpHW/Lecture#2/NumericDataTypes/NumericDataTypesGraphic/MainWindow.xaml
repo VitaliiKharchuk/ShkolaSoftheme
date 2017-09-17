@@ -43,13 +43,13 @@
 		<StackPanel Name="description"  Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top">
 
 			<Label   VerticalAlignment="Center" HorizontalAlignment ="Left">Default</Label>
-			<TextBox x:Name="_default"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" FontSize="18" />
+			<TextBox x:Name="_default"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="300" FontSize="18" />
 
 			<Label   VerticalAlignment="Center" HorizontalAlignment ="Left">Min</Label>
-			<TextBox x:Name="_min"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" FontSize="18" />
+			<TextBox x:Name="_min"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="300" FontSize="18" />
 
 			<Label   VerticalAlignment="Center" HorizontalAlignment ="Left">MAX</Label>
-			<TextBox x:Name="_max"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" FontSize="18" />
+			<TextBox x:Name="_max"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="300" FontSize="18" />
 
 
 		</StackPanel>
