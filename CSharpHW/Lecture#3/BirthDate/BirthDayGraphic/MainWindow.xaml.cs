@@ -48,23 +48,91 @@ namespace BirthDayGraphic
 
                 _age.Text = GetAge(birthDay).ToString();
 
-                _zodiacSign.Text = GetZodiacSign(birthDay);
+                string  _zodiacName = GetZodiacSign(birthDay);
+                _zodiacSign.Text = _zodiacName;
+
+
+
+                switch(_zodiacName)
+                {
+                    case "Capricorn":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p1.jpg", UriKind.Relative));
+                            break;
+                        }
+
+                    case  "Aquarius":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p2.jpg", UriKind.Relative));
+                            break;
+                         }
+
+                    case "Pisces":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p3.jpg", UriKind.Relative));
+                            break;
+                        }
+
+                    case "Aries":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p4.jpg", UriKind.Relative));
+                            break;
+                        }
+
+                    case "Taurus":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p5.jpg", UriKind.Relative));
+                            break;
+                        }
+
+                    case "Gemini":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p6.jpg", UriKind.Relative));
+                            break;
+                        }
+                    case "Cancer":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p7.jpg", UriKind.Relative));
+                            break;
+                        }
+                    case "Leo":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p8.jpg", UriKind.Relative));
+                            break;
+                        }
+                    case "Virgo":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p9.jpg", UriKind.Relative));
+                            break;
+                        }
+                    case "Libra":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p10.jpg", UriKind.Relative));
+                            break;
+                        }
+                    case "Scorpio":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p11.jpg", UriKind.Relative));
+                            break;
+                        }
+
+                    case "Sagittarius":
+                        {
+                            imageZodiac.Source = new BitmapImage(new Uri($@"/Images/p12.jpg", UriKind.Relative));
+                            break;
+                        }
+
+                }
 
 
 
 
-                /*
-                Image i = new Image();
-                i.Source = new BitmapImage(  new  Uri   ( "photo1", UriKind.Relative));
 
-                this.Content = i;
-                this.img = i;
-                */
-            }   
+            }
 
 
-            
-            
+
+
         }
 
 
