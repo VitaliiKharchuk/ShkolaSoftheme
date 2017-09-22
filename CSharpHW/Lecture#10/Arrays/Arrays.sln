@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleElement", "SingleElement\SingleElement.csproj", "{988980D8-8073-49A6-A72E-75863C56228F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{FBBA5EF4-F8B4-4B70-B59D-55F5408A21F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "InfiniteArray\Array.csproj", "{E1949E42-FE1B-4115-8C21-099440527BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{988980D8-8073-49A6-A72E-75863C56228F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988980D8-8073-49A6-A72E-75863C56228F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988980D8-8073-49A6-A72E-75863C56228F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988980D8-8073-49A6-A72E-75863C56228F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBA5EF4-F8B4-4B70-B59D-55F5408A21F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBA5EF4-F8B4-4B70-B59D-55F5408A21F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBA5EF4-F8B4-4B70-B59D-55F5408A21F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBA5EF4-F8B4-4B70-B59D-55F5408A21F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1949E42-FE1B-4115-8C21-099440527BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1949E42-FE1B-4115-8C21-099440527BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1949E42-FE1B-4115-8C21-099440527BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1949E42-FE1B-4115-8C21-099440527BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F15B5CE1-C268-4F76-9173-71C4CB60548F}
+	EndGlobalSection
+EndGlobal
