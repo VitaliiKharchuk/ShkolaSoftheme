@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace GC
+namespace GCollector
 {
     class Program
     {
@@ -20,7 +20,9 @@ namespace GC
            derivedHolder1.Dispose();
            derivedHolder1.Dispose();
 
-            var derivedHolder2 = new ResourceHolderDerived();            
+            var derivedHolder2 = new ResourceHolderDerived();
+
+            Console.ReadKey();
         }
     }
 }
