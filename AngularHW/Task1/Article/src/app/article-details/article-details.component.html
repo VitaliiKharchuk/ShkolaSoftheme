@@ -1,0 +1,12 @@
+
+
+<div  class = "container"> 
+  <div class="list-group" *ngFor="let article of articles">          
+    <label>Стаття з рубрики:  {{article.chapter}}</label>
+    <h4 class = "title"[style.color]="article.color" (click)="changeColor(article)"> {{article.title}} </h4> 
+    <p> {{article.shortDescription}} </p>    
+    <label> Зазначте  рубрику: </label>
+    <input [(ngModel)]= "article.chapter">  
+    <br> <br>  <br>   
+  </div>   
+</div>
