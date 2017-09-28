@@ -1,0 +1,13 @@
+
+
+<div class="Mycolumn">
+  <h4>The  list of  favorite  books</h4>
+  <div class="list-group" *ngFor="let favoriteBook of favoriteBooks$ | async">
+      
+    <ul>      
+        <li>
+            {{favoriteBook.bookTitle}} 
+         <br>
+    </ul>
+    
+</div>
