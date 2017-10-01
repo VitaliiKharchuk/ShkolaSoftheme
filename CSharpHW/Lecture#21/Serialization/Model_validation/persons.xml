@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <Title>War  and  peace</Title>
+    <Id>1</Id>
+    <Type>Drama</Type>
+  </Book>
+  <Book>
+    <Title>Eragon</Title>
+    <Id>2</Id>
+    <Type>Fiction</Type>
+  </Book>
+  <Book>
+    <Title>Harry Potter</Title>
+    <Id>3</Id>
+    <Type>Fantasy</Type>
+  </Book>
+  <Book>
+    <Title>15- year  old  captain</Title>
+    <Id>4</Id>
+    <Type>Advanture</Type>
+  </Book>
+  <Book>
+    <Title>Robinzon Cruzo</Title>
+    <Id>5</Id>
+    <Type>Advanture</Type>
+  </Book>
+  <Book>
+    <Title>Hamlet</Title>
+    <Id>6</Id>
+    <Type>Drama</Type>
+  </Book>
+  <Book>
+    <Title>C#  tutorial</Title>
+    <Id>7</Id>
+    <Type>NonFiction</Type>
+  </Book>
+  <Book>
+    <Title>Angular  tutorial</Title>
+    <Id>8</Id>
+    <Type>NonFiction</Type>
+  </Book>
+  <Book>
+    <Title>Theory of string</Title>
+    <Id>9</Id>
+    <Type>NonFiction</Type>
+  </Book>
+</ArrayOfBook>

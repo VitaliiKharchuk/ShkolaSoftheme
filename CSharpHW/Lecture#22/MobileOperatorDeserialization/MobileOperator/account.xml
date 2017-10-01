@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ArrayOfMobileAccount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MobileAccount>
+    <Contacts>
+      <int>1</int>
+      <int>2</int>
+    </Contacts>
+    <Name>sdf</Name>
+    <PhoneNumber>0</PhoneNumber>
+  </MobileAccount>
+  <MobileAccount>
+    <Contacts>
+      <int>1</int>
+      <int>4</int>
+    </Contacts>
+    <Name>Bolt</Name>
+    <PhoneNumber>1</PhoneNumber>
+  </MobileAccount>
+  <MobileAccount>
+    <Contacts>
+      <int>5</int>
+      <int>7</int>
+      <int>5</int>
+      <int>67</int>
+      <int>787</int>
+    </Contacts>
+    <Name>Messi</Name>
+    <PhoneNumber>2</PhoneNumber>
+  </MobileAccount>
+  <MobileAccount>
+    <Contacts />
+    <Name>Ronaldo</Name>
+    <PhoneNumber>3</PhoneNumber>
+  </MobileAccount>
+  <MobileAccount>
+    <Contacts />
+    <Name>Phelps</Name>
+    <PhoneNumber>10</PhoneNumber>
+  </MobileAccount>
+</ArrayOfMobileAccount>
