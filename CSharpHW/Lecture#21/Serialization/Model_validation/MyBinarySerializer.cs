@@ -6,8 +6,9 @@ using System.Diagnostics;
 
 namespace Serialization
 {
-    class MyBinarySerializer
+    static class MyBinarySerializer
     {
+        static readonly int iterationCount = 1000;
 
         public static void Serialize(List<Book> books)
         {
@@ -17,7 +18,7 @@ namespace Serialization
             var stopwatch = new Stopwatch();
             stopwatch.Restart();
 
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < iterationCount; i++)
             {
 
                 using (FileStream fs = new FileStream("book.dat", FileMode.OpenOrCreate))

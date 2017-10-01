@@ -27,14 +27,9 @@ namespace Serialization
             MyBinarySerializer.Serialize(Books);
             MyXmlSerializer.Serialize(Books);
             MyJsonSerializer.Serialize(Books);
-            
-            
+            ProtobufSerializer.TestProtoBuf(Books);
+   
             Console.ReadLine();
         }
-
-       
-
-        
-
     }
 }
