@@ -5,11 +5,9 @@ using System.Text;
 
 namespace MobileOperator
 {
-    public class MyClass
+    class Buffer
     {
-        public int Number { get; set; }
-        public int Total { get; set; }
-
-
+        public  MobileAccount Account { get; set; }
+        public int Points { get; set; }
     }
 }

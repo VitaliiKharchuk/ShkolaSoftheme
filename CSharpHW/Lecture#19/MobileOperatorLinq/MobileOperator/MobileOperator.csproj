@@ -40,11 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buffer.cs" />
     <Compile Include="ConnectionType.cs" />
     <Compile Include="MobileAccount.cs" />
     <Compile Include="MobileConnection.cs" />
     <Compile Include="MobileOperator.cs" />
-    <Compile Include="MyClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

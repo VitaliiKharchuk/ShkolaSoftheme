@@ -1,126 +1,54 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace MobileOperator
 {
-    static class MobileOperator 
+    static class MobileOperator
     {
-
         static public int _number = 0;
         static List<MobileAccount> listExistingNumbers = new List<MobileAccount>();
         public static List<MobileConnection> listConnection = new List<MobileConnection>();
+        static readonly int quantity = 5;
+
 
         static public int GenerateNewNumber()
-        {         
+        {
             _number++;
             return _number;
         }
-
-
-        public static void GetFiveMostPopularNumbers()
+        
+        public static List<Buffer> GetFiveMostPopularNumbers()
         {
 
             var list = (from connection in listConnection
-                        group connection.Sender.PhoneNumber by connection.Receiver.PhoneNumber into g
+                        where connection.Type.Equals( ConnectionType.Call)
+                        group connection.Sender by connection.Receiver into g
                         orderby g.Count() descending
-                        select new
+                        select new  Buffer
                         {
-                            number = g.Key,
-                            total = g.Count()
-                        }).Take(5);
+                            Account = g.Key,
+                            Points = g.Count()
+                        }).Take(quantity).ToList();
 
-
-            foreach (var l in list)
-            {
-
-                Console.WriteLine("Number = " + l.number + "  Total " +  l.total);
-
-
-
-
-            }
-
-           // Console.WriteLine(list);
-                   
+            return list;
         }
 
-
-
-        public  static   void  GetFiveMostActiveAbonent()
+        public static List<Buffer> GetFiveMostActiveAbonents()
         {
 
-            var list = (from connection in listConnection
-                        group connection.Receiver.PhoneNumber by connection.Sender into g
-                        select g.Sum());
-                        
-                        
-
-            foreach  (var account in  list)
+            var list = listConnection.GroupBy(abonent => abonent.Sender).Select(number => new  Buffer
             {
-                Console.WriteLine(account);
-            }
+                Account = number.Key,
+                Points = number.Count(connection => connection.Type == ConnectionType.Call) +
+                            number.Count(connection => connection.Type == ConnectionType.Sms) / 2
+            }).OrderByDescending(rank => rank.Points).Take(quantity).ToList();
+
             
+            return  list ;
         }
 
-        public class CaseInsensitiveComparer : IComparer<int>
-        {
-
-
-            public int Compare(int x, int y)
-            {
-                return (x > y) ? 1 : -1;
-            }
-
-            /*
-            public int Compare(MobileAccount x, MobileAccount y)    
-            {
-
-                double utility1 = 0;
-                double utility2 = 0;
-                foreach (var account in listConnection)
-                {
-                    if (account.Sender.PhoneNumber == x.PhoneNumber )
-                    {
-                        if  (account.Type == ConnectionType.Call)
-                        {
-                            utility1++;
-                        }
-
-                        else
-                        {
-                            utility1 += 0.5;
-                        }
-                    }
-
-                    if (account.Sender.PhoneNumber == y.PhoneNumber)
-                    {
-
-                        if (account.Type == ConnectionType.Call)
-                        {
-                            utility2++;
-                        }
-
-                        else
-                        {
-                            utility2 += 0.5;
-                        }
-                    }
-
-
-                }
-
-
-                return (utility1 > utility2) ? 1 : 0;
-                
-            }
-            */
-        }
-
-
-
-        static   public  void  AddToDatabase(MobileAccount  account)
+        static public void AddToDatabase(MobileAccount account)
         {
             listExistingNumbers.Add(account);
         }
@@ -129,7 +57,6 @@ namespace MobileOperator
         {
             listConnection.Add(new MobileConnection { Receiver = receiver, Sender = sender, Type = ConnectionType.Call });
 
-
             if (sender.PhoneNumber != receiver.PhoneNumber)
             {
                 Console.Write(String.Format("Call information:  number of receiver -  {0},  time of event -  {1} , number of  sender -  {2} ",
@@ -137,14 +64,13 @@ namespace MobileOperator
 
                 if (receiver.IsBookContainsNumber(sender))
                 {
-                    Console.WriteLine("name of  sender = " +sender.Name);
+                    Console.WriteLine("name of  sender = " + sender.Name);
                 }
 
                 else
                 {
-                    Console.WriteLine("unknown  number");                 
+                    Console.WriteLine("unknown  number");
                 }
-
             }
 
             else
@@ -164,11 +90,11 @@ namespace MobileOperator
                 Console.Write(String.Format("Sms information:  number of receiver -  {0},  time of event -  {1} , number of  sender -  {2} ",
                      receiver.PhoneNumber, DateTime.Now, sender.PhoneNumber));
 
-              
+
                 if (receiver.IsBookContainsNumber(sender))
                 {
                     Console.WriteLine("name of  sender = " + sender.Name);
-         
+
                 }
 
                 else
@@ -194,16 +120,5 @@ namespace MobileOperator
         {
             Console.WriteLine("Impossible  to  sent  SMS on  your own number");
         }
-
-       
     }
-
-
-    /*
-    public  MyClass()
-    {
-   
-    
-    }
-*/
 }

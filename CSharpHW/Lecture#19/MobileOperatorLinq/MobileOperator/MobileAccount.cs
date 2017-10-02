@@ -7,7 +7,7 @@ using System.Text;
 
 namespace MobileOperator
 {
-    class MobileAccount : IComparable
+    class MobileAccount 
     {
 
         public delegate void AccountHandler(MobileAccount  accountSender, MobileAccount  accountReceiver);
@@ -61,12 +61,6 @@ namespace MobileOperator
             {
                  SmsEvent(this, receiver);              
             }
-        }
-
-        public int CompareTo(object obj)
-        {
-            //throw new NotImplementedException();
-            return 1; 
         }
     }
 }
