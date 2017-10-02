@@ -17,8 +17,30 @@ namespace ValidationLibrary
         [Range(1, 100)]
         public int Age { get; set; }
         
-        [OnlyForViewing]
         public List<Book> BooksFromLibrary { get; set; }
+        
+        public  void GetBookFromLibrary(string  title)
+        {
+            Book book = Library.GetBook(title);
+
+            if (book == null)
+            {
+                Library.NotFoundBook(title);
+            }
+
+            else if ( Library.IsCanBookOnHands(book))
+            {
+                BooksFromLibrary.Add(book);
+                Library.SuccessTranscation(book, this);
+            }
+
+            else
+            {
+                Library.DeniedTranscation(book);
+            }
+
+        }
+
 
     }
 }

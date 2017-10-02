@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="Book.cs" />
     <Compile Include="BookType.cs" />
+    <Compile Include="ForbiddenBook.cs" />
+    <Compile Include="GeneralBook.cs" />
     <Compile Include="Library.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="User.cs" />
