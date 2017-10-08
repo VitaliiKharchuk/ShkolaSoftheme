@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Catalog>
+  <Books>
+    <Book>
+      <Id>1</Id>
+      <Title>War  and  peace</Title>
+      <Type>Drama</Type>
+    </Book>
+    <Book>
+      <Id>2</Id>
+      <Title>Eragon</Title>
+      <Type>Fiction</Type>
+    </Book>
+  </Books>
+  <Users>
+    <User>
+      <Id>1</Id>
+      <Name>Dani</Name>
+      <Age>25</Age>
+      <ListBooks>
+        <Book>Theory of string</Book>
+        <Book>Volcanous</Book>
+      </ListBooks>
+    </User>
+    <User>
+      <Id>2</Id>
+      <Name>Le</Name>
+      <Age>23</Age>
+      <ListBooks />
+    </User>
+    <User>
+      <Id>3</Id>
+      <Name>Mark</Name>
+      <Age>23</Age>
+      <ListBooks>
+        <Book>Theory of string</Book>
+      </ListBooks>
+    </User>
+  </Users>
+</Catalog>

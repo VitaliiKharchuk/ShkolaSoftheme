@@ -1,0 +1,47 @@
+Replacment in J:\Example\New folder\New Text Document (3) - Copy - Copy.txt:
+   string 'rt' was  replaced on string 'abc' in  line 1
+   string 'rt' was  replaced on string 'abc' in  line 4
+   string 'rt' was  replaced on string 'abc' in  line 8
+
+Replacment in J:\Example\New folder\New Text Document (2) - Copy - Copy.txt:
+   string 'rt' was  replaced on string 'abc' in  line 1
+   string 'rt' was  replaced on string 'abc' in  line 4
+   string 'rt' was  replaced on string 'abc' in  line 8
+
+Replacment in J:\Example\New folder\New Text Document (5) - Copy - Copy.txt:
+   string 'rt' was  replaced on string 'abc' in  line 1
+   string 'rt' was  replaced on string 'abc' in  line 4
+   string 'rt' was  replaced on string 'abc' in  line 8
+
+Replacment in J:\Example\New folder\New Text Document (2) - Copy.txt:
+   string 'rt' was  replaced on string 'abc' in  line 1
+   string 'rt' was  replaced on string 'abc' in  line 4
+   string 'rt' was  replaced on string 'abc' in  line 8
+
+Replacment in J:\Example\New folder\New Text Document (4) - Copy - Copy.txt:
+   string 'rt' was  replaced on string 'abc' in  line 1
+   string 'rt' was  replaced on string 'abc' in  line 4
+   string 'rt' was  replaced on string 'abc' in  line 8
+
+Replacment in J:\Example\New folder\New Text Document (6) - Copy - Copy.txt:
+   string 'rt' was  replaced on string 'abc' in  line 1
+   string 'rt' was  replaced on string 'abc' in  line 4
+   string 'rt' was  replaced on string 'abc' in  line 8
+
+Replacment in J:\Example\New folder\New Text Document (7) - Copy - Copy.txt:
+   string 'rt' was  replaced on string 'abc' in  line 1
+   string 'rt' was  replaced on string 'abc' in  line 4
+   string 'rt' was  replaced on string 'abc' in  line 8
+
+Replacment in J:\Example\New folder\New folder\New Text Document - Copy (2).txt:
+
+Replacment in J:\Example\New folder\New folder\New Text Document - Copy.txt:
+
+Replacment in J:\Example\New folder\New folder\New Text Document - Copy (2).txt.zip:
+
+Replacment in J:\Example\New folder\New folder\New Text Document - Copy.txt.zip:
+
+Replacment in J:\Example\New folder\New folder\New Text Document.txt:
+
+Replacment in J:\Example\New folder\New folder\New Text Document.txt.zip:
+
