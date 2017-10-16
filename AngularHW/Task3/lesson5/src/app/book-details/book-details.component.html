@@ -1,0 +1,7 @@
+    <ol class="breadcrumb">
+        <h3> {{id1}} </h3>
+        <h3>This is the Details Page of "{{book?.name}}" book</h3>
+        <li *ngFor="let breadcrumb of breadcrumbs">
+          <a>{{ breadcrumb.label }}</a>
+        </li>
+    </ol>
