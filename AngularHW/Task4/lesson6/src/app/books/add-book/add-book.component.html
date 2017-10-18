@@ -1,0 +1,43 @@
+<div  class="container">
+  <h2>User  data </h2>
+  <form [formGroup] = "bookForm"   (ngSubmit)="onSubmit()">
+      <div  class="form-group"> 
+            <label> Title </label>
+            <input  type = "text" class = "form-control"  formControlName = "title">
+            <div *ngIf = "bookForm.controls['title'].hasError('required')" class= "alert alert-danger"> 
+                Please enter  Title
+            </div>
+            <div *ngIf = "bookForm.controls['title'].hasError('maxlength')" class= "alert alert-danger"> 
+                Length  must   be  less
+            </div>
+            
+      </div>
+       
+      <div class="form-group"> 
+          <label> Auther </label>
+          <input  type = "text" class = "form-control"  formControlName = "auther" >
+          <div *ngIf = "bookForm.controls['auther'].hasError('required')" class= "alert alert-danger"> 
+              Please enter  Auther's  name
+          </div>
+          <div *ngIf = "bookForm.controls['auther'].hasError('maxlength')" class= "alert alert-danger"> 
+              Length  must   be  less
+          </div>
+      </div>
+   
+     <div class="form-group"> 
+        <label> Description </label>
+        <input  type = "text" class = "form-control"  formControlName = "description">
+        <div *ngIf = "bookForm.controls['description'].hasError('required')" class= "alert alert-danger"> 
+            Please enter  Description
+        </div>
+        <div *ngIf = "bookForm.controls['description'].hasError('maxlength')" class= "alert alert-danger"> 
+            Length  must   be  less
+        </div>
+   
+     </div> 
+    
+        <button  type = "submit" [disabled] = "!bookForm.valid" class = "btn btn-primary"> Submit </button>
+
+  </form>
+
+</div>
