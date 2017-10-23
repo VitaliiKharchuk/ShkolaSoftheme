@@ -5,6 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 
+using Microsoft.Win32;
+using Microsoft.WindowsAzure;
+using System.Collections.Generic;
+using System.Linq;
+
+
+
+using System.Threading;
+
+using System.Configuration;
+
+
+using DataLayer;
 
 namespace SimpleApp
 {
@@ -12,7 +25,7 @@ namespace SimpleApp
     {
         static void Main(string[] args)
         {
-
+            
             try
             {
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
@@ -50,7 +63,26 @@ namespace SimpleApp
                 Console.WriteLine(e.ToString());
             }
             Console.ReadLine();
+            
+            //--------------------------Working  via   data  layer-------
+
+            string connectionString = ConfigurationManager.ConnectionStrings["Data"].ConnectionString;
+            Accessor con = new Accessor(connectionString);
+ 
+            con.Add(new Item { Name = "Track" }).Wait();
+            con.Delete(4).Wait();
+            con.Delete(5).Wait();
+            con.Update(6, new Item { Name = "CAR"}).Wait();
+
+            Item[] items = con.GetAll().Result;
+
+            foreach (Item i in items)
+            {
+                Console.WriteLine("ItemID =  {0},  ItemName = {1}",i.ItemId, i.Name);
+            }
+
+            Console.WriteLine("Completed");
+            Console.ReadKey();
         }
     }
-    
 }
